@@ -1,0 +1,189 @@
+.breadcrumbs
+{
+        padding:0 0 0 0px;
+        text-align:left;
+        margin:15px 20px 15px 0px;
+        font-size:0.85em;
+
+}
+
+
+.ddmx
+{
+border: #8B191C  ; 
+width: 100%;
+}
+
+table
+{
+    border-collapse:collapse;
+    display:table;
+    border-spacing: 2px;
+    border-color: #A49D9D;
+}
+
+tbody 
+{
+    display: table-row-group;
+  /*La propiedad vertical-align establece la alineación vertical de un elemento.*/
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    /*La palabra clave inherit especifica 
+    que una propiedad debe heredar su valor de su elemento padre.
+
+    La palabra clave inherit se puede utilizar para cualquier propiedad CSS, 
+    y en cualquier elemento HTML.*/
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+
+}
+
+.ddmx a.item1,
+.ddmx a.item1-active,
+.ddmx a.item1-active:hover {
+ padding: 7px 55px 7px 55px   ; 
+ top: 10px; 
+ left: 10px; 
+ font-size: 12px ; 
+ font-family: Verdana, Arial, Helvetica, sans-serif ; 
+ text-align: center ; 
+ font-weight: bolder ; 
+ color: #000000 ; 
+ text-decoration: none  ; 
+ display: block; 
+ white-space: nowrap; 
+ position: relative; 
+ background-image: url(../imagenes/dorado1.jpg);
+ 
+}
+
+.ddmx td.item11 {
+ background-color: #ED7B7E; ; 
+ padding:0  ; 
+ border-top: 1px solid #8B191C ; 
+ border-left: 1px solid #8B191C ; 
+ border-bottom: 1px solid #8B191C;
+ border-right: 0  ; 
+ white-space: nowrap  ; 
+}
+
+ul.menu li a:link,
+ ul.menu li a:visited
+{
+  color:#fff;
+  display:block;
+  padding:7px 4px 7px 15px;
+  text-decoration:none;
+}
+
+@media only screen and (max-width : 320px) {
+
+.ddmx
+{
+  display: none;
+
+}
+        #header {
+                margin:auto;
+                width: 132%;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+            
+            ul, ol {
+                list-style:none;
+            }
+            
+            .nav > li {
+                float:left;
+            }
+            
+            .nav li a {
+                background-color:#000;
+                color:#fff;
+                text-decoration:none;
+               padding: 10px 27px;
+                display:block;
+            }
+            
+            .nav li a:hover {
+                background-color:#434343;
+            }
+            
+            .nav li ul {
+                display:none;
+                position:absolute;
+                min-width:30%;
+            }
+            
+            .nav li:hover > ul {
+                display:block;
+            }
+            
+            .nav li ul li {
+                position:relative;
+            }
+            
+            .nav li ul li ul {
+                right:-140px;
+                top:0px;
+            }
+
+}
+
+@media only screen and (min-width : 321px) and (max-width: 350px) {
+
+.nav
+{
+    display: none;
+}
+.ddmx a.item1{
+    padding: 9px 15%;
+    font-size: 85%;
+  }
+
+
+}
+
+@media only screen and (min-width : 350px)  {
+    .nav{
+        display: none;
+    }
+.ddmx a.item1{
+    padding: 9px 15%;
+    font-size: 85%;
+  }
+
+}
+
+@media only screen and (min-width : 768px)  and (max-width : 1024px){
+
+
+ .ddmx a.item1{
+    padding: 9px 15%;
+    font-size: 85%;
+  }
+
+.nav{
+    display: none;
+}
+
+
+}
+
+
+@media only screen and (min-width : 1024px){
+.nav
+{
+    display: none;
+}
+  
+}
