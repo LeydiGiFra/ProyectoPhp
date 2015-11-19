@@ -1,0 +1,54 @@
+*
+{
+        margin: 0;
+        padding: 0;
+}
+body 
+{
+  background: #959595;
+  /*La propiedad font-family puede contener varios nombres de fuente como un 
+  sistema de "retroceso". Si el navegador no es compatible con la primera fuente, 
+  que trata la siguiente fuente.*/
+  font-family: tahoma, arial, helvetica, sans-serif;
+  font-size: 100.01%;
+  padding: 0%;
+  text-align: center;
+  position:relative;
+ 
+}
+.all
+{
+  color: #333;
+  border:solid 0px ;
+  padding-top:0px;
+  background:#fff;
+  font-size: 0.8em;
+  margin: 0 auto;
+  max-width:97%;
+  padding: 0px;
+  text-align: left;
+
+}
+.back
+{
+  margin: 0%;
+  padding:0%;
+}
+
+.all .header
+{
+  padding-top:0.5em ;
+}
+input 
+{
+    padding: 1px;
+    background-color: white;
+    border: 2px inset;
+}
+
+label
+{
+  padding-right: 44%;
+}
+
+
