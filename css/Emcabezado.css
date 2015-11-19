@@ -1,0 +1,51 @@
+
+.logoheader
+{
+  background:   url(/imagenes/personal2.png)  no-repeat bottom right ;
+ 
+ }
+
+
+
+.logo img
+{
+    display: block;
+
+}
+img 
+{ 
+  border: 0 none; 
+}
+
+.img
+{
+  margin-left: 0%;
+margin-top: 0%;
+
+}
+
+
+@media only screen and (max-width : 320px) {
+
+.img{
+  width: 99%;
+
+}
+
+  
+}
+
+@media only screen and (min-width : 321px) and (max-width: 767px) {
+
+.img{
+  width: 50%;
+
+}
+}
+
+@media only screen and (min-width : 768px)  and (max-width : 1024px){
+	.img{
+		width: 50%;
+	}
+	
+}
