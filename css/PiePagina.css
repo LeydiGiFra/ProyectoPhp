@@ -1,0 +1,35 @@
+
+
+.footer
+{
+   
+  background:#BB0900  url(../imagenes/footer.jpg) repeat-x;
+  color:#fff;
+  border-top:solid 0px #ccc;
+  padding:15px 10px 15px 20px;
+  text-align:right;
+  margin:0 auto;
+  display:block;
+  max-width:98%;
+  overflow:hidden;
+}
+
+.footer div
+{
+        float:left;
+        font-size:0.8em;
+        line-height:1.7em;
+}
+
+
+.footer p
+{
+        font-size:0.8em;
+        margin:0;
+}
+
+p
+{
+        line-height:1.7em;
+        margin:8px 0;
+}
