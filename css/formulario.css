@@ -1,0 +1,153 @@
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+.formulario
+{
+ width:  66%;
+}
+
+
+
+
+.formularioProductos{
+  width: 50%;
+  margin-left: 30%;
+}
+
+
+.formularioProductos label  {
+  margin: 0 5px;
+  clear:both;
+  float:left;
+  width: 49%;
+  padding-top:25px;
+}
+.formulario label  {
+  margin: 0 5px;
+  clear:both;
+  float:left;
+  width: 49%;
+  padding-top:25px;
+}
+
+.texto{
+  font-size: 16px ; 
+ font-family: Verdana, Arial, Helvetica, sans-serif ; 
+}
+
+
+.formularioProductos input
+{
+  color:#505050;
+  background-color: #ffffff;
+  border-radius:5px;
+  border:1px solid #c0c0c0;
+  margin: 0 3px ;
+  padding: 5px ;
+  clear:both;
+  width: 91%;
+}
+.formulario textarea{
+  width: 94%;
+}
+
+.formulario input, .formulario select 
+ {
+  color:#505050;
+  background-color: #ffffff;
+  border-radius:5px;
+  border:1px solid #c0c0c0;
+  margin: 0 3px ;
+  padding: 5px ;
+  clear:both;
+  width: 91%;
+}
+
+fieldset
+{
+  border:solid 0px #ccc;
+  margin: 1% 15%; 
+  padding:15px 0px;
+  border:solid 1px;
+  display: block;
+}
+
+.foxcontainer
+{
+  padding-left: 30px;
+  margin-top: 1em;
+}
+
+.formubutton
+{
+margin-left: 11em;
+}
+
+
+@media only screen and (max-width : 320px) {
+
+fieldset
+{
+  margin: 21% 7%; 
+}
+
+
+.foxtext{
+  width: 30%;
+}
+
+.formulario {
+    width: 90%;
+}
+.tablaIngresar {
+    width: 95%;
+
+}
+
+.formulario input{
+  width: 86%;
+}
+
+
+.foxcontainer {
+    padding-left: 9px;
+  }
+
+  .formubutton {
+    margin-left: 7em;
+  }
+
+
+  .formularioProductos {
+    width: 83%;
+    margin-left: 5%;
+}
+}
+@media only screen and (min-width : 321px) and (max-width: 767px) {
+
+
+  .formulario {
+    width: 79%;
+}
+
+.texto{
+  font-size: 16% ; 
+  }
+
+ 
+}
+
+
+
+@media only screen and (min-width : 768px)  and (max-width : 1024px){
+
+
+
+}
+
+
+@media only screen and (min-width : 1024px){
+
+}
