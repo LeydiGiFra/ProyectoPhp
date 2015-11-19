@@ -1,0 +1,14 @@
+.wrapper2
+{
+  width:100%;
+  float:left;
+  position:relative;
+  padding-bottom:10px;
+
+}
+
+input, textarea,  select, button {
+    margin: 0em;
+    font: 13.3333px Arial;
+    
+}
